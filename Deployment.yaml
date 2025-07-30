@@ -18,7 +18,7 @@ spec:
       - name: nginx
         image: nginx:latest  
         ports:
-        - containerPort: 3000 
+        - containerPort: 80 
         resources: # добавил ресурсные ограничения
           requests:
             memory: '64Mi'
